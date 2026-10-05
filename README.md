@@ -27,7 +27,7 @@ O objetivo é oferecer uma base pequena e clara para evoluir para um WMS (Wareho
 ## Instalação
 
 ```bash
-git clone <URL-DO-SEU-REPOSITORIO>
+git clone https://github.com/KeltonAlmeida/warehouse-payments-php
 cd warehouse-payments-php
 composer install
 cp .env.example .env
