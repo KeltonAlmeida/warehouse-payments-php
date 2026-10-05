@@ -1,0 +1,19 @@
+{
+  "name": "starter/warehouse-payments-php",
+  "description": "Starter PHP para gerenciamento de warehouse, estoque e pagamentos online.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "serve": "php -S localhost:8000 -t public",
+    "lint": "find src public -name '*.php' -print0 | xargs -0 -n1 php -l"
+  }
+}
